@@ -2,6 +2,7 @@ import tkinter as tk
 from ui.start_page import StartPage
 from ui.game_page import GamePage
 
+
 class App(tk.Tk):
     def __init__(self):
         super().__init__()
