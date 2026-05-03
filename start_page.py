@@ -4,7 +4,7 @@ class StartPage(tk.Frame):
     def __init__(self, master):
         super().__init__(master, bg="#E8D26B")
 
-        tk.Label(self, text="hangman",
+        tk.Label(self, text="HANGMAN",
                  font=("Arial", 28, "bold"),
                  bg="#E8D26B").pack(pady=20)
 
